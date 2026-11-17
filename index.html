@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Odilbek-Baxtiyor Mebel</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Мебель для ванных комнат — Odilbek-Baxtiyor Mebel: связь в Telegram, звонок и Telegram-канал.">
+<meta name="theme-color" content="#e8eeea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#080d0c" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Odilbek-Baxtiyor Mebel">
+<meta property="og:description" content="Мебель для ванных комнат — Odilbek-Baxtiyor Mebel: связь в Telegram, звонок и Telegram-канал.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="uz_UZ">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Для красивого превью в Telegram добавьте: <meta property="og:image" content="https://ВАШ-ДОМЕН/preview.jpg"> (абсолютная ссылка, 1200×630) -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+  <div class="aurora">
+    <div class="blob b1"><i></i></div>
+    <div class="blob b2"><i></i></div>
+    <div class="blob b3"><i></i></div>
+  </div>
+  <canvas id="caustics"></canvas>
+  <canvas id="bubbles"></canvas>
+</div>
+
+<div class="col">
+  <header class="top">
+    <div class="lang glass" role="group" aria-label="Язык страницы" data-i18n-aria="langAria">
+      <i aria-hidden="true"></i>
+      <button type="button" data-set-lang="ru" aria-pressed="true" aria-label="Русский">RU</button>
+      <button type="button" data-set-lang="uz" aria-pressed="false" aria-label="O‘zbekcha">UZ</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="logo-slot" data-reveal="pop">
+        <div class="logo" id="logo" role="img" aria-label="Odilbek-Baxtiyor Mebel">
+          <div class="glow"></div>
+          <div class="swing"><div class="badge" id="badge"></div></div>
+        </div>
+      </div>
+      <div data-reveal><h1 id="brand">Odilbek‑Baxtiyor Mebel</h1></div>
+      <div data-reveal><p class="lead" id="desc">Мебель для ванных комнат. Свяжитесь с нами удобным для вас способом.</p></div>
+    </section>
+
+    <div class="stack">
+      <div class="item" data-reveal>
+        <a class="card glass" id="tgLink" href="#">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 3 10.5l6 2.2 2 6.3 3-3.8 4.5 3.3L21 3z"/><path d="M9 12.7 21 3"/></svg></span>
+          <span class="txt"><span class="t" data-i18n="tgTitle">Telegram</span><span class="s" data-i18n="tgSub">Написать в личные сообщения</span></span>
+          <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+      </div>
+
+      <div class="item" data-reveal>
+        <a class="card glass tel" id="telLink" href="#">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <span class="txt"><span class="t" data-i18n="telTitle">Позвонить</span><span class="s num" id="telNum">+998 XX XXX XX XX</span></span>
+        </a>
+        <button class="copy" id="copyBtn" type="button" aria-label="Скопировать номер" data-i18n-aria="copyAria">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>
+        </button>
+      </div>
+
+      <div class="item" data-reveal>
+        <a class="card glass" id="chLink" href="#">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg></span>
+          <span class="txt"><span class="t" data-i18n="chTitle">Telegram-канал</span><span class="s" id="chDesc">Новинки мебели для ванных комнат</span></span>
+          <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="foot" data-reveal>
+    <a class="dev glass" id="devLink" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+      <span data-i18n="devBtn">Разработчик</span>
+    </a>
+  </footer>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
