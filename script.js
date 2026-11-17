@@ -18,7 +18,7 @@
       uz: 'Hammom uchun mebel. Siz uchun qulay usulda biz bilan bog‘laning.'
     },
     telegram: '@OBM_mebel',             // @username или https://t.me/username (личные сообщения)
-    phone: '+998995 513 00 77',         // например: +998 90 123 45 67
+    phone: '+99895 513 00 77',         // например: +998 90 123 45 67
     channel: 'https://t.me/+eXY5e9Ojc9YwOTYy', // @channel или https://t.me/channel
     channelDesc: {
       ru: 'Новинки мебели для ванных комнат',
